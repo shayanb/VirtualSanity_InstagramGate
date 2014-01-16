@@ -1,0 +1,117 @@
+pip install psycopg2
+pip install python-instagram
+
+
+alter table insta_gate.public.data_media alter tags drop not null
+
+
+
+
+Media:
+
+HTTP/1.1 200 OK
+Content-Language:
+en
+X-Ratelimit-Limit:
+5000
+Vary:
+Cookie, Accept-Language, Accept-Encoding
+Date:
+Mon, 23 Dec 2013 07:57:17 GMT
+Content-Length:
+2184
+X-Ratelimit-Remaining:
+4987
+Set-Cookie:
+csrftoken=f35baf35a514b205933e6a22244ac413; expires=Mon, 22-Dec-2014 07:57:17 GMT; Max-Age=31449600; Path=/
+Content-Type:
+application/json; charset=utf-8
+Server:
+nginx
+
+{
+  "meta":  {
+    "code": 200
+  },
+  "data":  {
+    "attribution": null,
+    "tags":  [],
+    "type": "image",
+    "location": null,
+    "comments":  {
+      "count": 0,
+      "data":  []
+    },
+    "filter": "Normal",
+    "created_time": "1387776999",
+    "link": "http://instagram.com/p/iQKzNiP2bX/",
+    "likes":  {
+      "count": 4,
+      "data":  [
+         {
+          "username": "myyearis2014",
+          "profile_picture": "http://images.ak.instagram.com/profiles/profile_841696229_75sq_1387760446.jpg",
+          "id": "841696229",
+          "full_name": "#2014ismyyear"
+        },
+         {
+          "username": "the_italian_stalian16",
+          "profile_picture": "http://images.ak.instagram.com/profiles/profile_276642208_75sq_1387776967.jpg",
+          "id": "276642208",
+          "full_name": "Mathew Colosimo"
+        },
+         {
+          "username": "_cutie_cutie_",
+          "profile_picture": "http://images.ak.instagram.com/profiles/profile_249727726_75sq_1386814713.jpg",
+          "id": "249727726",
+          "full_name": "Lyssa 👑"
+        },
+         {
+          "username": "_ignitexconspire",
+          "profile_picture": "http://images.ak.instagram.com/profiles/profile_30585871_75sq_1387775274.jpg",
+          "id": "30585871",
+          "full_name": "Adriana"
+        }
+      ]
+    },
+    "images":  {
+      "low_resolution":  {
+        "url": "http://distilleryimage0.s3.amazonaws.com/5722bbc86b9311e3a7900e59ad914808_6.jpg",
+        "width": 306,
+        "height": 306
+      },
+      "thumbnail":  {
+        "url": "http://distilleryimage0.s3.amazonaws.com/5722bbc86b9311e3a7900e59ad914808_5.jpg",
+        "width": 150,
+        "height": 150
+      },
+      "standard_resolution":  {
+        "url": "http://distilleryimage0.s3.amazonaws.com/5722bbc86b9311e3a7900e59ad914808_8.jpg",
+        "width": 640,
+        "height": 640
+      }
+    },
+    "users_in_photo":  [],
+    "caption":  {
+      "created_time": "1387776999",
+      "text": "I am single and fabulous but I don't even have someone to chill with that's a dude don't have a crush don't even have a straight guy that's a homie my standards aren't insane can I just have a homie THAT'S A STRAIGHT GUY THAT ISN'T MEAN AND ACTUALLY CARES ABOUT ME THX",
+      "from":  {
+        "username": "yadollsammy",
+        "profile_picture": "http://images.ak.instagram.com/profiles/profile_287044056_75sq_1383789650.jpg",
+        "id": "287044056",
+        "full_name": "Unstable Sammy"
+      },
+      "id": "617040648943396407"
+    },
+    "user_has_liked": true,
+    "id": "617040648641406679_287044056",
+    "user":  {
+      "username": "yadollsammy",
+      "website": "",
+      "profile_picture": "http://images.ak.instagram.com/profiles/profile_287044056_75sq_1383789650.jpg",
+      "full_name": "Unstable Sammy",
+      "bio": "",
+      "id": "287044056"
+    }
+  }
+}
